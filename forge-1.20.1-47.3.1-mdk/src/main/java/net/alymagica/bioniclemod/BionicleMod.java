@@ -1,6 +1,7 @@
 package net.alymagica.bioniclemod;
 
 import com.mojang.logging.LogUtils;
+import net.alymagica.bioniclemod.block.ModBlocks;
 import net.alymagica.bioniclemod.item.ModCreativeModeTabs;
 import net.alymagica.bioniclemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class BionicleMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

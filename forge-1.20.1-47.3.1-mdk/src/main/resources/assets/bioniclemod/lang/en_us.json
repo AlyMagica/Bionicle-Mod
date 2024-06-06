@@ -5,5 +5,10 @@
   "item.bioniclemod.antidermis" : "Solid Antidermis",
   "item.bioniclemod.ingot_exsidian" : "Exsidian Ingot",
 
+  "block.bioniclemod.protodermis_block": "Block of Protodermis",
+  "block.bioniclemod.protosteel_block": "Block of Protosteel",
+  "block.bioniclemod.lightstone_block": "Lightstone Block",
+  "block.bioniclemod.exsidian": "Exsidian",
+
   "creativetab.bionicle_mod_tab": "Bionicle Mod"
 }

@@ -1,6 +1,7 @@
 package net.alymagica.bioniclemod.item;
 
 import net.alymagica.bioniclemod.BionicleMod;
+import net.alymagica.bioniclemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INGOT_PROTOSTEEL.get());
                         output.accept(ModItems.ANTIDERMIS.get());
                         output.accept(ModItems.INGOT_EXSIDIAN.get());
+
+                        output.accept(ModBlocks.LIGHTSTONE_BLOCK.get());
+                        output.accept(ModBlocks.PROTODERMIS_BLOCK.get());
+                        output.accept(ModBlocks.PROTOSTEEL_BLOCK.get());
+                        output.accept(ModBlocks.EXSIDIAN.get());
                     })
                     .build());
 
