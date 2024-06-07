@@ -23,9 +23,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> PROTOSTEEL_BLOCK = registerBlock("protosteel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(25.0F, 700.0F)));
     public static final RegistryObject<Block> LIGHTSTONE_BLOCK = registerBlock("lightstone_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).lightLevel((p_152607_) -> {
+                return 15;
+            })));
     public static final RegistryObject<Block> EXSIDIAN = registerBlock("exsidian",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> PROTODERMIS_ORE = registerBlock("protodermis_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> LIGHTSTONE_ORE = registerBlock("lightstone_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE).lightLevel((p_152607_) -> {
+                return 8;
+            })));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

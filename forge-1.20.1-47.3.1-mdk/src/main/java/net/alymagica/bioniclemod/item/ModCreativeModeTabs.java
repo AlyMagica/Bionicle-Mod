@@ -24,9 +24,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ANTIDERMIS.get());
                         output.accept(ModItems.INGOT_EXSIDIAN.get());
 
-                        output.accept(ModBlocks.LIGHTSTONE_BLOCK.get());
+
+                        output.accept(ModBlocks.PROTODERMIS_ORE.get());
+                        output.accept(ModBlocks.LIGHTSTONE_ORE.get());
                         output.accept(ModBlocks.PROTODERMIS_BLOCK.get());
                         output.accept(ModBlocks.PROTOSTEEL_BLOCK.get());
+                        output.accept(ModBlocks.LIGHTSTONE_BLOCK.get());
                         output.accept(ModBlocks.EXSIDIAN.get());
                     })
                     .build());

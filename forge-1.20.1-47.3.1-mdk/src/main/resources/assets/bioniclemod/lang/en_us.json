@@ -9,6 +9,8 @@
   "block.bioniclemod.protosteel_block": "Block of Protosteel",
   "block.bioniclemod.lightstone_block": "Lightstone Block",
   "block.bioniclemod.exsidian": "Exsidian",
+  "block.bioniclemod.protodermis_ore": "Protodermis Ore",
+  "block.bioniclemod.lightstone_ore": "Lightstone Deposit",
 
   "creativetab.bionicle_mod_tab": "Bionicle Mod"
 }
